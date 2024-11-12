@@ -1,0 +1,16 @@
+{
+  "id": "28f4b5499f9b0cc049b45c2875d051144dd6c4a2",
+  "displayId": "28f4b5499f9",
+  "author": {
+    "name": "Name Surname",
+    "emailAddress": "mail@marathonbet.ru"
+  },
+  "authorTimestamp": 1449046495000,
+  "message": "PAN-2 Task name [8d02ae93]\nPAN-3 Task name [e7425834]",
+  "parents": [
+    {
+      "id": "4f1ea9993c62ccd336702cf06a8885d6b1dd3218",
+      "displayId": "4f1ea9993c6"
+    }
+  ]
+}

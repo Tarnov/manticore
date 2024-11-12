@@ -1,0 +1,20 @@
+<configuration>
+
+    <property name="defaultPattern"
+              value="%date  %highlight(%-5level)  %-84([%thread] %cyan(%logger{1}))  %msg %throwable{5}%n"/>
+
+    <logger name="com.panbet.manticore" level="DEBUG">
+        <appender-ref ref="ConsoleAppender"/>
+    </logger>
+
+    <appender name="ConsoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${defaultPattern}</pattern>
+        </encoder>
+    </appender>
+
+    <root level="warn">
+        <appender-ref ref="ConsoleAppender"/>
+    </root>
+
+</configuration>

@@ -1,0 +1,19 @@
+{
+  "name": "kochemirovskiy.a",
+  "emailAddress": "akochemirovskiy@marathonbet.ru",
+  "id": 4644,
+  "displayName": "Kochemirovskiy Andrey",
+  "active": true,
+  "slug": "kochemirovskiy.a",
+  "type": "NORMAL",
+  "link": {
+    "rel": "self"
+  },
+  "links": {
+    "self": [
+      {
+        "href": "http://git.mbet.spb.ru/users/kochemirovskiy.a"
+      }
+    ]
+  }
+}
