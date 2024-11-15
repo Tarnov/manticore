@@ -1,0 +1,15 @@
+<html>
+<body>
+##Map<Hash , Map<ChangePath, ChangeType>>
+    #foreach ($hash in $commitsChanges.keySet())
+    <h1>Found DB scripts changes in commit <a href="$commitsUri/$hash">$hash</a>. Changes:
+    </h1>
+    <ul>
+        #foreach ($path in ${commitsChanges.get($hash).keySet()})
+        <li>${commitsChanges.get($hash).get($path)}&emsp;<a href="$commitsUri/$hash#$path">$path</a></li>
+        #end
+    </ul>
+    #end
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<html>
+<body>
+##Map<Hash , Set<ChangePath>>
+    #foreach ($hash in $commitsChanges.keySet())
+    <h1>Found localization e-mail template additions in commit <a href="$commitsUri/$hash">$hash</a>. Following files were added:
+    </h1>
+    <ul>
+        #foreach ($path in ${commitsChanges.get($hash)})
+        <li><a href="$commitsUri/$hash#$path">$path</a></li>
+        #end
+    </ul>
+    #end
+
+</body>
+</html>
